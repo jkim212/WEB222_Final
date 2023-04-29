@@ -1,0 +1,65 @@
+/*Import fonts*/
+@font-face {
+    font-family: 'MyFont';
+    src: url('Heaters.otf');
+}
+
+@font-face {
+    font-family: 'MyFont2';
+    src: url('Gotham-Thin.otf');
+}
+
+body {
+    background-color: #EEEEEE;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    font-family: MyFont;
+    background-color: black;
+    color: white;
+    font-size: calc(7vw + 7vh); /*Responsive font size*/
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.menu button {
+    font-family: MyFont2;
+    font-weight: bold;
+    font-size: calc(1vw + 1vh); /*Responsive font size*/
+    border: none;
+    outline: none;
+}
+
+.menu button:hover {
+    background-color: #903749;
+    cursor: pointer;
+}
+
+#content {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    align-items: center;
+    width: 100%;
+    overflow: auto;
+}
+
+#content iframe {
+    border: none;
+    width: 80%;
+    height: 3300px;
+
+}
+
+#title:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,92 @@
+
+
+header{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+header span{
+    color: red;
+}
+
+.intro{
+    color: white;
+}
+
+.intro div{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.intro img{
+    height: 500px;
+    width: 700px;
+}
+
+.intro h1{
+    font-size: 120px;
+}
+
+.intro p{
+    font-size: 40px;
+}
+
+#end-buttons{
+    margin-top: 150px;
+    align-items: center;
+    text-align: center;
+}
+
+#end-buttons button{
+    border: none;
+    
+    align-items: center;
+    font-size: 30px;
+    width: 730px;
+    height: 80px;
+}
+
+#end-buttons button:hover{
+    background-color: #903749;
+    cursor: pointer;
+}
+
+#newsletter{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#newsletter form {
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: #680300;
+}
+
+#newsletter input {
+    border-radius: 10px;
+    border: none;
+    font-size: 30px;
+}
+
+#newsletter select{
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+}
+#newsletter button{
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 30px;
+}
+
+#newsletter button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="landing.css" type="text/css" />
+    <title>Document</title>
+</head>
+<body>
+    <header><span>WARNING!</span> Gambling is only legal for 19+ in Ontario</header>
+    <div class="landing-img"><img src="landing-img.jpg" height="100%" width="100%" alt="Casino image"></div>
+    <div class="intro">
+        <h1>Forever 21</h1>
+        <div>
+            <p><span style="font-size: 80px";>B</span>lackjack, also know as "Twenty-One", 
+                is one of the most played games in casinos all around the world. 
+                With its history that extends to as far as 1400s, Blackjack
+                has been on the gambling tables for ages. Assuming a significant number of
+                people in the table, an average of 30 to 40 hands are played an hour, which,
+                in comparison to other games, is quite fast-paced.
+            </p>
+            <img src="landing-2.jpg" style="margin: 10px;" alt="Cards image">
+        </div>
+
+        <h1 style="text-align: right; font-size: 100px;">Hook, Line, and Sinker</h1>
+        <div>   
+            <img src="landing-3.jpg" style="margin: 30px;" alt="Dealer image">
+            <p>
+                While most casino games are brought to you with unreal house edges, 
+                Blackjack, if the casino follows its general rules, has a house
+                edge of 1%. That being said, if played perfectly in theory,
+                your odds of winning can reach up to a whopping 49%. I mean, why waste all the money on Poker
+                when you can only waste half of your money in Blackjack?
+            </p>
+        </div>
+
+        <hr><br>
+
+        <div class="subsc">
+            <p>Subscribe for Newsletters and get a free deck of cards!</p>
+        </div>
+        <div id="newsletter">
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+              
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <select class="t1-select preference-dropdown">
+                    <option value="1">Sent daily</option>
+                    <option value="2">Sent weekly</option>
+                    <option value="3" selected="selected">Sent periodically</option>
+                </select>
+                
+                <button type="submit">Subscribe</button>
+              </form>
+        </div><br><br>
+        <hr>
+
+        <div id="end-buttons">
+            <button id = "about" style="border-radius: 0 50px 0 50px;" onclick="loadAbout()">About</button>
+            <button id = "game" style="border-radius: 50px 0 50px 0;" onclick="loadGame()">Try a game</button>
+        <div>
+
+    </div>
+
+
+    <script src="landing.js"></script>
+</body>
+</html>

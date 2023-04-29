@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('sawton-circular.otf');
+  }
+
+  body{
+    font-family: MyFont;
+  }
+
+#review-box{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+#review-box div{
+    max-width: 70%;
+    margin-top: 100px;
+    border-radius: 35px;
+    text-align: center;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(to bottom right, #ffe2cd, #750400);
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 1);
+    width: 350px;
+    height: 500px;
+}
+
+
+.form-container form {
+    margin: 30px;
+}
+
+.form-container label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.form-container input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+
+.form-container textarea {
+    width: 100%;
+    height: 150px;
+    resize: none;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+
+.form-container input[type="range"] {
+    width: 100%;
+  }
+  
+  .form-container button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+  
+  .form-container button:hover {
+    background-color: white;
+    color: red;
+  }
+  
+  
+  
+  
+  

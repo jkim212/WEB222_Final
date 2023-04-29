@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reviews.css" type="text/css" />
+    <title>Document</title>
+</head>
+<body>
+    <div id="review-box">
+        <div class = "form-container">
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+              
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required><br>
+              
+                <label for="content">Content:</label>
+                <textarea id="content" name="content" required></textarea><br>
+              
+                <label for="rating">Rating:</label>
+                <input type="range" id="rating" name="rating" min="1" max="5" step="1" value="5"><br>
+
+                <button type="submit">Submit Review</button>
+              </form>
+        </div>
+    </div>
+    <script src="reviews.js"></script>
+</body>
+</html>
